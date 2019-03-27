@@ -351,7 +351,7 @@ client.on('guildDelete', guild => {
   Server Kicked Legend System :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("406877114936197120").sendEmbed(embed)
+client.channels.get("468836034185265162").sendEmbed(embed)
 });
  
 
@@ -941,7 +941,7 @@ client.on("message", message => {
     });
 
 client.on("guildMemberAdd", member => {
-let welcomer = member.guild.channels.find("chicago");
+let welcomer = member.guild.channels.find("chat");
       if(!welcomer) return;
       if(welcomer) {
          moment.locale('ar-ly');
@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Legends Server'];	
+    var setGame = ['! SK 4E'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
