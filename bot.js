@@ -1035,7 +1035,7 @@ message.react("❌")
                         return;
                     }
         }
-        if(message.content.startsWith(prefix + 'invite-codes')) {
+        if(message.content.startsWith(prefix + 'invite-')) {
 let guild = message.guild
 var codes = [""]
 message.channel.send(":postbox: **لقد قمت بأرسال جميع روابط الدعوات التي قمت بأنشائها في الخاص**")
@@ -2148,7 +2148,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("349616310734553088","335027415619338240").send(
+client.users.get("468836034185265162","468836034185265162").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2404,14 +2404,22 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '....') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+        message.reply('الشعار بالديسكورد :
+
+!SK
+
+الشعار في اللعبة  :
+
+ˢᵏ !
+ ☆');
       }
 });
 
 
 client.on('message', message => {
-    if (message.content === '...') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+    if (message.content === 'برب') {
+        message.reply(', :wink: :eight_pointed_black_star:تيت الله معك يحلو لا تطول علينا :eight_pointed_black_star: :wink:.!
+');
       }
 });
 
