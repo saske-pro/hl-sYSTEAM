@@ -2395,7 +2395,7 @@ if (message.content.startsWith("=setVoice")) {
 
 client.on('message', message => {
     if (message.content === 'باك') {
-        message.reply('♪ ارحب.. أطلـَـق ولكــم☆');
+        message.reply(' ارحب.. أطلـَـق ولكــم');
       }
 });
 
@@ -2404,21 +2404,21 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'برب') {
-        message.reply(' ,** :wink: :eight_pointed_black_star:تيت الله معك يحلو لا تطول علينا :eight_pointed_black_star: ☆**');
+        message.reply(' ,** :wink: :eight_pointed_black_star:تيت الله معك يحلو لا تطول علينا :eight_pointed_black_star: **');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === 'كسمك') {
-        message.reply('♪**كسمك انته :)** ☆');
+        message.reply('**كسمك انته :)** ');
       }
 });
 
 
 client.on('message', message => {
     if (message.content === 'الشعار') {
-        message.reply('**♪ شعارك فالديسكورد : SK !                                                                                           شعارك فالعبة :  ๖ۣۜ𝓢𝓚༻  ☆**');
+        message.reply('** شعارك فالديسكورد : SK !                                                                                           شعارك فالعبة :  ๖ۣۜ𝓢𝓚༻  ☆**');
       }
 });
 
