@@ -941,9 +941,9 @@ client.on("message", message => {
     });
 
 client.on("guildMemberAdd", member => {
-let welcomer = member.guild.channels.find("super	");
+let welcomer = member.guild.channels.find("super");
       if(!welcomer) return;
-      if(welcomer) {
+      if(super) {
          moment.locale('ar-ly');
          var h = member.user;
         let norelden = new Discord.RichEmbed()
@@ -1007,7 +1007,7 @@ message.react("❌")
 
  client.on("message", async message => {
             if(!message.channel.guild) return;
-            var prefix = "=";
+            var prefix = "ر";
         if(message.content.startsWith(prefix + 'invites')) {
         var nul = 0
         var guild = message.guild
@@ -1035,7 +1035,7 @@ message.react("❌")
                         return;
                     }
         }
-        if(message.content.startsWith(prefix + 'invite-codes')) {
+        if(message.content.startsWith(prefix + 'ابط')) {
 let guild = message.guild
 var codes = [""]
 message.channel.send(":postbox: **لقد قمت بأرسال جميع روابط الدعوات التي قمت بأنشائها في الخاص**")
