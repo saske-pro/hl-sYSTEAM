@@ -351,7 +351,7 @@ client.on('guildDelete', guild => {
   Server Kicked Legend System :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("468836034185265162").sendEmbed(embed)
+client.channels.get("406877114936197120").sendEmbed(embed)
 });
  
 
@@ -941,7 +941,7 @@ client.on("message", message => {
     });
 
 client.on("guildMemberAdd", member => {
-let welcomer = member.guild.channels.find("chat");
+let welcomer = member.guild.channels.find("chicago");
       if(!welcomer) return;
       if(welcomer) {
          moment.locale('ar-ly');
@@ -1035,7 +1035,7 @@ message.react("❌")
                         return;
                     }
         }
-        if(message.content.startsWith(prefix + 'invite-')) {
+        if(message.content.startsWith(prefix + 'invite-codes')) {
 let guild = message.guild
 var codes = [""]
 message.channel.send(":postbox: **لقد قمت بأرسال جميع روابط الدعوات التي قمت بأنشائها في الخاص**")
@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['! SK 4E'];	
+    var setGame = ['Chicago Server'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2148,7 +2148,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("468836034185265162","468836034185265162").send(
+client.users.get("349616310734553088","335027415619338240").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2404,22 +2404,14 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '....') {
-        message.reply('الشعار بالديسكورد :
-
-!SK
-
-الشعار في اللعبة  :
-
-ˢᵏ !
- ☆');
+        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
       }
 });
 
 
 client.on('message', message => {
-    if (message.content === 'برب') {
-        message.reply(', :wink: :eight_pointed_black_star:تيت الله معك يحلو لا تطول علينا :eight_pointed_black_star: :wink:.!
-');
+    if (message.content === '...') {
+        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
       }
 });
 
