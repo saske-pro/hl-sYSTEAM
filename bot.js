@@ -554,7 +554,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "=";
-const devs = ['484098680954290219','487313531071496195'];
+const devs = ['468836034185265162	','468836034185265162'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -941,7 +941,7 @@ client.on("message", message => {
     });
 
 client.on("guildMemberAdd", member => {
-let welcomer = member.guild.channels.find("chicago");
+let welcomer = member.guild.channels.find("chat");
       if(!welcomer) return;
       if(welcomer) {
          moment.locale('ar-ly');
@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['Chicago Server'];	
+    var setGame = ['SK - Super Kings'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2403,22 +2403,22 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === '....') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+    if (message.content === 'برب') {
+        message.reply(' , :wink: :eight_pointed_black_star:تيت الله معك يحلو لا تطول علينا :eight_pointed_black_star: ☆');
       }
 });
 
 
 client.on('message', message => {
-    if (message.content === '...') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+    if (message.content === '*') {
+        message.reply('♪**Welcome To SK Clan :fire: Have Fun :champagne_glass:** ☆');
       }
 });
 
 
 client.on('message', message => {
-    if (message.content === '..') {
-        message.reply('♪أطلـَـق من نقط, يلــبى بس ☆');
+    if (message.content === 'الشعار') {
+        message.reply('♪ !SK   :fire:  ☆');
       }
 });
 
