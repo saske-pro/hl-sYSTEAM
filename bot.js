@@ -943,7 +943,7 @@ client.on("message", message => {
 client.on("guildMemberAdd", member => {
 let welcomer = member.guild.channels.find("super");
       if(!welcomer) return;
-      if(super) {
+      if(welcomer) {
          moment.locale('ar-ly');
          var h = member.user;
         let norelden = new Discord.RichEmbed()
