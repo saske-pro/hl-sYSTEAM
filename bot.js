@@ -2418,7 +2418,9 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'الشعار') {
-        message.reply('♪ !SK   :fire:  ☆');
+        message.reply('♪ شعارك فالديسكورد : SK !
+
+شعارك فالعبة :  ๖ۣۜ𝓢𝓚༻   ☆');
       }
 });
 
