@@ -2394,8 +2394,8 @@ if (message.content.startsWith("=setVoice")) {
 
 
 client.on('message', message => {
-    if (message.content === 'هاي') {
-        message.reply('♪ هــأايات أطلـَـق ولكــم☆');
+    if (message.content === 'باك') {
+        message.reply('♪ ارحب.. أطلـَـق ولكــم☆');
       }
 });
 
