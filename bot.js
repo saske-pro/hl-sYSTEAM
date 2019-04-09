@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['SK - Super Kings'];	
+    var setGame = ['GR Players'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2418,7 +2418,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'الشعار') {
-        message.reply('** شعارك فالديسكورد :  !                                                                                                       5TR !                                                                  شعارك فالعبة :   ๖ۣۜ 5𝓣𝓡༻  ☆**');
+        message.reply('** =Game Play : ! GR| Your Name**');
       }
 });
 
