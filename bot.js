@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['GR Players'];	
+    var setGame = ['King Die 4E'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2148,7 +2148,7 @@ let args = message.content.split(" ").slice(1).join(" ");
 
 
 
-client.users.get("349616310734553088","335027415619338240").send(
+client.users.get("468836034185265162","468836034185265162").send(
     "\n" + "**" + "● السيرفر :" + "**" +
     "\n" + "**" + "» " + message.guild.name + "**" +
     "\n" + "**" + " ● المرسل : " + "**" +
@@ -2418,7 +2418,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'الشعار') {
-        message.reply('** =Game Play : ! GR| Your Name**');
+        message.reply('**=Discord : !KD|Your  name                                                                               =Game Play : ! இ| Your Name**');
       }
 });
 
