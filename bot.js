@@ -1494,7 +1494,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['King Die 4E'];	
+    var setGame = ['XP [X Players]'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -2418,7 +2418,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'الشعار') {
-        message.reply('**=Discord : !KD|Your  name                                                                               =Game Play : ! இ| Your Name**');
+        message.reply('**=Discord : !хρ|Your  name                                                                                    =Game Play :  よ| Your Name**');
       }
 });
 
